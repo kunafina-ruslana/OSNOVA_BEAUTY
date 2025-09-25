@@ -70,6 +70,14 @@
       </div>
     </div>
   </section>
+   <script>
+    document.querySelectorAll(".faq-question").forEach(q => {
+      q.addEventListener("click", () => {
+        const answer = q.nextElementSibling;
+        answer.style.display = answer.style.display === "block" ? "none" : "block";
+      });
+    });
+  </script>
 
   <section class="block">
     <h2>Галерея салона</h2>
@@ -116,5 +124,6 @@
 
   <script src="js/app.js"></script>
 </body>
+
 
 </html>

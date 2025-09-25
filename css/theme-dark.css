@@ -1,0 +1,101 @@
+:root {
+  --green: #5A6D4D;
+  --yel: #FDEBD3;
+  --grey: #2A2A2A;
+  --ligh_grey: #AAAAAA;
+  --text: #F5F5F5;
+}
+
+
+body {
+    background: #1E1E1E;
+    color: var(--text);
+}
+.green {
+  background: var(--grey);
+}
+.header {
+  background-image: url('./image/ТЕМНЫЙ\ фон.jpg');
+}
+.nav a {
+  color: var(--yel);
+}
+
+.modal-content {
+  background: var(--grey);
+}
+
+.form-group label {
+  color: var(--text);
+}
+.form-group input, select {
+    background-color: var(--grey);
+  color: var(--text);
+}
+
+.review-card {
+  background: var(--grey);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.review-name, .review-text, .tel-contact {
+  color: var(--text);
+}
+
+.review-date {
+  color: var(--ligh_grey);
+}
+
+footer {
+  background-color: var(--grey);
+  color: var(--text);
+}
+
+
+.service-card {
+  background: var(--grey);
+  color: var(--text);
+}
+.service-price {
+  color: #8BAF6D;
+}
+
+
+    .faq-item {
+      background: var(--grey);
+    }
+
+    .faq-question {
+      background: var(--grey);
+      transition: background 0.3s;
+    }
+
+    .faq-question:hover {
+      background: var(--grey);
+    }
+
+    .faq-answer {
+      color: var(--text);
+    }
+
+@media (max-width: 768px) {
+
+	.nav {
+		background: #1E1E1E;
+	}
+	.nav.active a{
+        color: white;
+    }
+    
+	.nav.active a:hover{
+        font-weight: 600;
+        background-color: #2a2929;
+	}
+}
+
+
+.change-theme[data-theme="dark"]{
+    display: block;
+}
+.change-theme[data-theme="light"]{
+    display: block;
+}

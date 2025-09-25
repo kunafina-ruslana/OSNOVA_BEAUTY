@@ -1,0 +1,64 @@
+:root {
+  --green: #5A6D4D;
+  --yel: #FDEBD3;
+}
+
+
+body {
+    background-color: #ffffff;
+}
+
+.header {
+  background-image:url('./image/СВЕТЛЫЙ\ фон.jpg');
+}
+
+.modal-content {
+  background: #fff;
+}
+.form-group label {
+  color: #555;
+}
+
+.review-card {
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.review-name {
+  color: #222;
+}
+
+.review-date {
+  color: #777;
+}
+
+.review-text {
+  color: #444;
+}
+
+footer {
+  background-color: var(--green);
+  color: var(--yel);
+}
+.tel-contact {
+  color: var(--yel);
+}
+
+
+.service-title {
+  color: #222;
+}
+
+.service-desc {
+  color: #555;
+}
+
+.service-price {
+  color: #5A6D4D;
+}
+
+.change-theme[data-theme="dark"]{
+    display: block;
+}
+.change-theme[data-theme="light"]{
+    display: none;
+}
